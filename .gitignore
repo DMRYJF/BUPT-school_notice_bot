@@ -3,12 +3,14 @@ config.py
 
 # Auth state (contains session cookies)
 auth_state.json
+daily_runner_state.json
 
 # Database
 *.db
 
 # Logs
 logs/
+openclaw_startup_check.ps1
 
 # Python
 __pycache__/
