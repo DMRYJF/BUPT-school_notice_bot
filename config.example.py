@@ -5,8 +5,8 @@ from pathlib import Path
 # School CAS / Portal config
 # =========================
 CAS_LOGIN_URL = "https://auth.bupt.edu.cn/authserver/login"
-NOTICE_LIST_URL = "https://my.bupt.edu.cn/portal/notices"
-PORTAL_BASE_URL = "https://my.bupt.edu.cn"
+NOTICE_LIST_URL = "http://my.bupt.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1154"
+PORTAL_BASE_URL = "http://my.bupt.edu.cn"
 
 # Fill in your credentials. Use os.getenv() in production.
 SCHOOL_USERNAME = "your_student_id"
