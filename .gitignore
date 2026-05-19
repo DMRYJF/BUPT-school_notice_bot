@@ -1,0 +1,16 @@
+# Sensitive config with real credentials
+config.py
+
+# Auth state (contains session cookies)
+auth_state.json
+
+# Database
+*.db
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
